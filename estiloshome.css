@@ -1,0 +1,1733 @@
+@charset "utf-8";
+/* CSS Document */
+
+    *{
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+    body {
+	font: 14px 'roboto_condensedlight', sans-serif;		
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	list-style-image: none;
+	list-style-type: none;
+}
+    img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+    .contht {
+	height: auto;
+	width: 26%;
+	margin-top: 12%;
+	margin-left: 4%;
+	padding: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	float: left;
+}	
+    .logoht {
+	height: auto;
+	width: 25%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #0FC;
+}
+    .hightowers {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 5em;
+	height: auto;
+	width: 98%;
+	color: #FFF;
+	word-spacing: -0.35em;
+	line-height: 0.8em;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: center;
+	margin: 0px;
+	float: left;
+}
+    .elmejorclub {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1.3em;
+	height: auto;
+	width: 100%;
+	color: #FFF;
+	word-spacing: 0em;
+	padding-left: 0%;
+	padding-right: 0%;
+	text-align: center;
+	float: left;
+}	 
+    .contnivelmas {
+	height: auto;
+	width: 70%;
+	margin-top: 16%;
+	margin-left: 0%;
+	padding: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	float: right;
+}
+    .contscroll {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 9%;
+}
+    .iconscroll {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	height: auto;
+	width: 2%;
+	margin-top: 0%;
+	margin-right: auto;
+	margin-left: auto;
+	color: #FFF;
+	text-align: center;
+}
+    .encelnivel {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 7em;
+	height: auto;
+	width: 98%;
+	color: #FFF;
+	word-spacing: 0em;
+	line-height: 0.8em;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .contcajas {
+	height: auto;
+	width: 100%;
+	margin-top: 10%;
+	margin-left: 0%;
+	padding: 0px;
+	margin-right: 0%;
+	margin-bottom: 0px;
+	float: left;
+}
+    .contboxes {
+	height: auto;
+	width: 22%;
+	border: thin dashed #FFF;
+	float: left;
+	margin-top: 0px;
+	margin-right: 2%;
+	margin-bottom: 0px;
+	margin-left: 0%;
+	padding-top: 0px;
+	padding-right: 0%;
+	padding-bottom: 0px;
+	padding-left: 0%;
+}   
+    .contboxesizq {
+	height: auto;
+	width: 22%;
+	border: thin dashed #FFF;
+	float: left;
+	margin-top: 0px;
+	margin-right: 2%;
+	margin-bottom: 0px;
+	margin-left: 3%;
+	padding-top: 0px;
+	padding-right: 0%;
+	padding-bottom: 0px;
+	padding-left: 0%;
+}
+    .encabezados {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	text-align: center;
+	width: 100%;
+	float: left;
+	height: 30px;
+	padding-top: 10px;
+	text-decoration: none;
+	border-bottom-width: thin;
+	border-bottom-style: dashed;
+	border-bottom-color: #FFF;
+}
+    .textos {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1.0em;
+	color: #FFF;
+	text-align: center;
+	width: 96%;
+	float: left;
+	height: auto;
+	padding-top: 10px;
+	text-decoration: none;
+	margin-top: 0px;
+	padding-bottom: 10px;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+    .contlomas {
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 5%;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+}
+    .enclomas {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 7em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 2%;
+}
+    .textolomas {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1.0em;
+	color: #FFF;
+	text-align: right;
+	float: left;
+	height: auto;
+	width: 40%;
+	margin-top: 2%;
+	border-right-width: thin;
+	border-right-style: dashed;
+	border-right-color: #FFF;
+	padding-right: 20px;
+	margin-left: 10%;
+}
+    .textosonata {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1.0em;
+	color: #FFF;
+	text-align: left;
+	float: left;
+	height: auto;
+	width: 40%;
+	margin-top: 2%;
+	padding-left: 20px;
+}
+    .contimg {
+	float: left;
+	height: 250px;
+	width: 25%;
+}
+    .imagen1{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/lomas1.jpg);
+}
+    .imagen2{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/lomas2.jpg);
+}
+    .imagen3{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/lomas3.jpg);
+}
+    .imagen4{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/lomas4.jpg);
+}
+    .imagen5{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/lomas5.jpg);
+}    
+    .imagen6{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/lomas6.jpg);
+}    
+    .imagen7{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/lomas7.jpg);
+}    
+    .imagen8{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/lomas8.jpg);
+}
+    .conthovers {
+	height: auto;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	border: thin dashed #FFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: left;
+	margin-top: 100px;
+}
+
+    .info{
+	width: 100%;
+	height: 250px;
+	background-color: rgba(0,0,0,0.9);
+	opacity: 0;
+	-webkit-transition: opacity 0.4s;
+}
+
+    .imagen1:hover div.info {
+	opacity:1;
+}
+    .imagen2:hover div.info {
+	opacity:1;
+}
+    .imagen3:hover div.info {
+	opacity:1;
+}
+    .imagen4:hover div.info {
+	opacity:1;
+}
+    .imagen5:hover div.info {
+	opacity:1;
+}
+    .imagen6:hover div.info {
+	opacity:1;
+}
+    .imagen7:hover div.info {
+	opacity:1;
+}
+    .imagen8:hover div.info {
+	opacity:1;
+}
+    p#headline1{
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1.2em;
+	color: #FFF;
+	text-align: center;
+	}
+
+	p#headline2{
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	}
+p#line1 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line1b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+p#line2 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line2b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+p#line3{
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+	}
+p#line3b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line4 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line4b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+p#line5 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line5b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+p#line6 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line6b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line7 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line7b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line8 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line8b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+    .conthightowers {
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 0%;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+}
+
+    .contamenities {
+	height: 40px;
+	width: 10%;
+	margin-right: 0%;
+	margin-left: 2%;
+	border: thin dashed #FFF;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	float: left;
+	margin-top: 40px;
+}
+    .contbullet {
+	float: left;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-image: url(images/llaves.jpg);
+	height: auto;
+	width: 100%;
+}
+    .bullet1{
+	text-align: center;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+    .bullet1a {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 2em;
+	color: #FFF;
+	position: relative;
+	text-align: center;
+	height: auto;
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: thin dashed #FFF;
+}
+    .bullet1b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1.5em;
+	color: #FFF;
+	position: relative;
+	text-align: center;
+	height: auto;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+    footer{
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;		 
+	height: auto;
+	width: 100%;
+	float: left;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+	 }
+    .footerredes1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333;
+}
+    .footerredes2 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+}
+.footerredes3 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333;
+}	 
+.footerredes4 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+}
+	.footerdomicilio {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 0.7em;
+	color: #FFF;
+	text-align: center;
+	width: 100%;
+	padding-top: 20px;
+	opacity: 0.5;
+	float: left;
+	height: auto;
+	padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .encelnivel {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 6em;
+	height: auto;
+	width: 98%;
+	color: #FFF;
+	word-spacing: 0em;
+	line-height: 0.8em;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .enclomas {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 6em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 2%;
+}	
+    p#line5 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1440
+*/
+
+@media only screen and (max-width: 1366px) {
+    .encelnivel {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 5em;
+	height: auto;
+	width: 98%;
+	color: #FFF;
+	word-spacing: 0em;
+	line-height: 0.8em;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .enclomas {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 5em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 2%;
+}
+    p#headline4 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}
+    p#line5b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}
+    .contbullet {
+	float: left;
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-image: url(images/llaves.jpg);
+	height: auto;
+	width: 100%;
+}
+    .bullet1{
+	text-align: center;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+    .bullet1a {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 2em;
+	color: #FFF;
+	position: relative;
+	text-align: center;
+	height: auto;
+	width: 30%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: thin dashed #FFF;
+}
+    .bullet1b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1.5em;
+	color: #FFF;
+	position: relative;
+	text-align: center;
+	height: auto;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1366
+*/
+@media only screen and (max-width: 1280px) {
+    .encelnivel {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 4.5em;
+	height: auto;
+	width: 98%;
+	color: #FFF;
+	word-spacing: 0em;
+	line-height: 0.8em;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .enclomas {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 4.5em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 2%;
+}	
+    .bullet1a {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 2em;
+	color: #FFF;
+	position: relative;
+	text-align: center;
+	height: auto;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: thin dashed #FFF;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1280
+*/
+@media only screen and (max-width: 1024px) {
+    .encelnivel {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 4.5em;
+	height: auto;
+	width: 90%;
+	color: #FFF;
+	word-spacing: 0em;
+	line-height: 0.8em;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 7%;
+}
+    .enclomas {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 4.5em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 2%;
+}
+   .contscroll {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 14%;
+}
+   .iconscroll {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	height: auto;
+	width: 4%;
+	margin-top: 0%;
+	margin-right: auto;
+	margin-left: auto;
+	color: #FFF;
+	text-align: center;
+}
+    p#line3b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}
+    p#line5 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}
+    p#line6 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}
+    p#line7 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}	
+    p#line8 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}
+.footerredes2 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: #4F4F4F;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1024
+*/
+@media only screen and (max-width: 768px) {
+    .contht {
+	height: auto;
+	width: 40%;
+	margin-top: 17%;
+	margin-left: 0%;
+	padding: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	float: left;
+}
+    .contnivelmas {
+	height: auto;
+	width: 50%;
+	margin-top: 16%;
+	margin-left: 0%;
+	padding: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	float: right;
+}
+    .encelnivel {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 3em;
+	height: auto;
+	width: 90%;
+	color: #FFF;
+	word-spacing: 0em;
+	line-height: 1em;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: left;
+	float: left;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0%;
+}
+    .enclomas {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 3em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 2%;
+}
+    .hightowers {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 3em;
+	height: auto;
+	width: 98%;
+	color: #FFF;
+	word-spacing: -0.35em;
+	line-height: 0.8em;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: center;
+	margin: 0px;
+	float: left;
+}
+    .elmejorclub {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	height: auto;
+	width: 100%;
+	color: #FFF;
+	word-spacing: 0em;
+	padding-left: 0%;
+	padding-right: 0%;
+	text-align: center;
+	float: left;
+}	
+   .contscroll {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 14%;
+}
+   .iconscroll {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	height: auto;
+	width: 4%;
+	margin-top: 0%;
+	margin-right: auto;
+	margin-left: auto;
+	color: #FFF;
+	text-align: center;
+} 
+    .contboxes {
+	height: auto;
+	width: 44%;
+	border: thin dashed #FFF;
+	float: left;
+	margin-top: 10px;
+	margin-right: 2%;
+	margin-bottom: 0px;
+	margin-left: 3%;
+	padding-top: 0px;
+	padding-right: 0%;
+	padding-bottom: 0px;
+	padding-left: 0%;
+}   
+    .contboxesizq {
+	height: auto;
+	width: 44%;
+	border: thin dashed #FFF;
+	float: left;
+	margin-top: 10px;
+	margin-right: 2%;
+	margin-bottom: 0px;
+	margin-left: 3%;
+	padding-top: 0px;
+	padding-right: 0%;
+	padding-bottom: 0px;
+	padding-left: 0%;
+}
+    .bullet1a {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 2em;
+	color: #FFF;
+	position: relative;
+	text-align: center;
+	height: auto;
+	width: 55%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: thin dashed #FFF;
+}
+    .contamenities {
+	height: 40px;
+	width: 20%;
+	margin-right: 0%;
+	margin-left: 4%;
+	border: thin dashed #FFF;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	float: left;
+	margin-top: 40px;
+}
+    p#line3b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+    p#line5 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}
+    p#line5b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}	
+    p#line6 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+    p#line7 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}	
+    p#line8 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+    .contimg {
+	float: left;
+	height: 250px;
+	width: 50%;
+}	
+	.footerdomicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	width: 90%;
+	padding-top: 10px;
+	opacity: 0.5;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 768
+*/
+@media only screen and (max-width: 680px) {
+   p#line5b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}	
+    .contbullet {
+	float: left;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-image: url(images/llaves.jpg);
+	height: auto;
+	width: 100%;
+}
+    .bullet1a {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 2em;
+	color: #FFF;
+	position: relative;
+	text-align: center;
+	height: auto;
+	width: 65%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: thin dashed #FFF;
+}	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 680	
+	
+*/
+@media only screen and (max-width: 640px) {
+    .contboxes {
+	height: auto;
+	width: 90%;
+	border: thin dashed #FFF;
+	float: left;
+	margin-top: 10px;
+	margin-right: 5%;
+	margin-bottom: 10px;
+	margin-left: 5%;
+	padding-top: 0px;
+	padding-right: 0%;
+	padding-bottom: 0px;
+	padding-left: 0%;
+}   
+    .contboxesizq {
+	height: auto;
+	width: 90%;
+	border: thin dashed #FFF;
+	float: left;
+	margin-top: 10px;
+	margin-right: 5%;
+	margin-bottom: 0px;
+	margin-left: 5%;
+	padding-top: 0px;
+	padding-right: 0%;
+	padding-bottom: 0px;
+	padding-left: 0%;
+}	
+   p#line5b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}	
+	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 640	
+*/
+@media only screen and (max-width: 600px) {
+ .contht {
+	height: auto;
+	width: 90%;
+	margin-top: 8%;
+	margin-left: 5%;
+	padding: 0px;
+	margin-right: 5%;
+	margin-bottom: 0px;
+	float: left;
+}
+    .contnivelmas {
+	height: auto;
+	width: 90%;
+	margin-top: 8%;
+	margin-left: 5%;
+	padding: 0px;
+	margin-right: 5%;
+	margin-bottom: 0px;
+	float: right;
+	text-align: center;
+}
+    .encelnivel {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 3em;
+	height: auto;
+	width: 100%;
+	color: #FFF;
+	word-spacing: 0em;
+	line-height: 1em;
+	padding-left: 0%;
+	padding-right: 0%;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	margin-right: 0%;
+	margin-bottom: 0px;
+	margin-left: 0%;
+}	
+  .iconscroll {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1em;
+	height: auto;
+	width: 8%;
+	margin-top: 0%;
+	margin-right: auto;
+	margin-left: auto;
+	color: #FFF;
+	text-align: center;
+} 
+    .contlomas {
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 5%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+}
+    .textolomas {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 90%;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-bottom-width: thin;
+	border-bottom-style: dashed;
+	border-bottom-color: #FFF;
+	border-right-style: none;
+	padding-bottom: 10px;
+	border-top-width: thin;
+	border-top-style: dashed;
+	border-top-color: #FFF;
+	padding-top: 10px;
+}
+    .textosonata {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1.0em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 90%;
+	margin-top: 2%;
+	margin-right: 5%;
+	margin-left: 5%;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+    .bullet1a {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 2em;
+	color: #FFF;
+	position: relative;
+	text-align: center;
+	height: auto;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: thin dashed #FFF;
+}
+   p#line8 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}
+   .contimg {
+	float: left;
+	height: 250px;
+	width: 50%;
+}	
+.footerredes1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 50%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333;
+}
+.footerredes2 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 50%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+}
+.footerredes3 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 50%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+}	 
+.footerredes4 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 50%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333333;
+}	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 600	
+	*/
+@media only screen and (max-width: 550px) {
+   p#line3b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}	
+   .contimg {
+	float: left;
+	height: 250px;
+	width: 50%;
+}
+	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 550	
+	*/
+@media only screen and (max-width: 480px) {
+    .bullet1a {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 1.5em;
+	color: #FFF;
+	position: relative;
+	text-align: center;
+	height: auto;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: thin dashed #FFF;
+}	
+    p#line6 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}
+    p#line6b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}
+    p#line7 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}	
+    p#line8 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}	
+   p#line3b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 0px;
+}	
+	.footerdomicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	width: 90%;
+	opacity: 0.5;
+	margin-right: 5%;
+	margin-left: 5%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.footerredes1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 100%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333;
+}
+.footerredes2 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 100%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+}
+.footerredes3 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 100%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333333;
+}	 
+.footerredes4 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 100%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+}		
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 480	
+*/
+@media only screen and (max-width: 320px) {
+    .encelnivel {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 1.5em;
+	height: auto;
+	width: 100%;
+	color: #FFF;
+	word-spacing: 0em;
+	line-height: 1em;
+	padding-left: 0%;
+	padding-right: 0%;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	margin-right: 0%;
+	margin-bottom: 0px;
+	margin-left: 0%;
+}	
+    .enclomas {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 1.5em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 90%;
+	margin-top: 0%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+    .contlomas {
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 5%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+}
+    .textolomas {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 90%;
+	margin-top: 2%;
+	margin-left: 0%;
+	margin-right: 0%;
+	border-bottom-width: thin;
+	border-bottom-style: dashed;
+	border-bottom-color: #FFF;
+	border-right-style: none;
+	padding-bottom: 10px;
+	border-top-width: thin;
+	border-top-style: dashed;
+	border-top-color: #FFF;
+	padding-top: 10px;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+    .textosonata {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1.0em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 90%;
+	margin-top: 2%;
+	margin-right: 0%;
+	margin-left: 0%;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-right: 05%;
+	padding-left: 5%;
+}
+    .bullet1a {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	position: relative;
+	text-align: center;
+	height: auto;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: thin dashed #FFF;
+}
+    .bullet1b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	position: relative;
+	text-align: center;
+	height: auto;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+   .contimg {
+	float: left;
+	height: 250px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+    .conthovers {
+	height: auto;
+	width: 90%;
+	margin-right: 0%;
+	margin-left: 0%;
+	border: thin dashed #FFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: left;
+	margin-top: 100px;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+    .info{
+	width: 90%;
+	height: 250px;
+	background-color: rgba(0,0,0,0.9);
+	opacity: 0;
+	-webkit-transition: opacity 0.4s;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 5%;
+	padding-bottom: 0px;
+	padding-left: 5%;
+}
+    .contamenities {
+	height: 40px;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	border: thin dashed #FFF;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+p#line1 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line1b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+p#line2 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line2b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+p#line3{
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+	}
+p#line3b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line4 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line4b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+p#line5 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line5b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+p#line6 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line6b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line7 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line7b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line8 {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+p#line8b {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}	
+	.footerdomicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	width: 90%;
+	opacity: 0.5;
+	margin-right: 5%;
+	margin-left: 5%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 320	
+	
+		

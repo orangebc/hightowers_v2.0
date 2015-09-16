@@ -1,0 +1,427 @@
+
+@charset "utf-8";
+/* CSS Document */
+    label {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	display: block;
+	width: 10%;
+	text-align: right;
+	float: left;
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 2%;
+    }
+    label#nombre1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	display: block;
+	width: 12%;
+	text-align: left;
+	float: left;
+	color: #FFF;
+	margin: 0px;
+    }
+    label#email1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	display: block;
+	width: 12%;
+	text-align: left;
+	float: left;
+	color: #FFF;
+	margin-top: 0px;
+	margin-right: 0%;
+	margin-bottom: 0px;
+	margin-left: 2%;
+    }
+    label#telefono1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	display: block;
+	width: 12%;
+	text-align: left;
+	float: left;
+	color: #FFF;
+	margin: 0px;
+    }
+    label#asunto1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	display: block;
+	width: 12%;
+	text-align: left;
+	float: left;
+	color: #FFF;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 2%;
+    }
+    label#mensaje {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	display: block;
+	width: 100%;
+	text-align: center;
+	float: left;
+	color: #FFF;
+	margin: 0px;
+    }
+    input, textarea {
+	width: 36.7%;
+	height: 20px;
+	margin-top: 0px;
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: thin dashed #FFF;
+	padding-right: 0%;
+	background-image: url(../images/fondonegro1.png);
+	background-repeat: repeat;
+	margin-right: 0%;
+	margin-bottom: 15px;
+	background-color: #333;
+    }
+    .formulario {
+	display: block;
+	width: 100%;
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	height: auto;
+	margin-top: 152px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: 0px;
+	float: left;
+    }
+    form {
+	width: 90%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-right: 5%;
+	padding-left: 5%;
+	color: #FFF;
+}
+    textarea {
+	height: 90px;
+	width: 99%;
+	float: left;
+	color: #FFF;
+	background-image: url(../images/fondonegro1.png);
+	background-repeat: repeat;
+	background-color: #333;
+	padding-left: 1%;
+}
+    #submit {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	cursor: pointer;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #FFF;
+	margin-right: 0%;
+	margin-left: 0%;
+	font-size: 1.1em;
+	padding-right: 0%;
+	padding-left: 0%;
+	border: thin dashed #FFF;
+}
+@media only screen and (max-width: 1680px) {
+    .formulario {
+	display: block;
+	width: 100%;
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	height: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: 0px;
+	float: left;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    input, textarea {
+	width: 36.4%;
+	height: 20px;
+	margin-top: 0px;
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: thin dashed #FFF;
+	padding-right: 0%;
+	background-image: url(../images/fondonegro1.png);
+	background-repeat: repeat;
+	margin-right: 0%;
+	margin-bottom: 15px;
+	background-color: #333;
+    }
+     textarea {
+	height: 90px;
+	width: 99%;
+	float: left;
+	color: #FFF;
+	background-image: url(../images/fondonegro1.png);
+	background-repeat: repeat;
+	background-color: #333;
+	padding-left: 1%;
+}
+}
+@media only screen and (max-width: 768px) {
+    label {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 0.9em;
+	display: block;
+	width: 10%;
+	text-align: right;
+	float: left;
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 2%;
+    }
+    label#nombre1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 0.9em;
+	display: block;
+	width: 12%;
+	text-align: left;
+	float: left;
+	color: #FFF;
+	margin: 0px;
+    }
+    label#email1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 0.9em;
+	display: block;
+	width: 12%;
+	text-align: left;
+	float: left;
+	color: #FFF;
+	margin-top: 0px;
+	margin-right: 0%;
+	margin-bottom: 0px;
+	margin-left: 2%;
+    }
+    label#telefono1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 0.9em;
+	display: block;
+	width: 12%;
+	text-align: left;
+	float: left;
+	color: #FFF;
+	margin: 0px;
+    }
+    label#asunto1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 0.9em;
+	display: block;
+	width: 12%;
+	text-align: left;
+	float: left;
+	color: #FFF;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 2%;
+    }
+    label#mensaje {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 0.9em;
+	display: block;
+	width: 100%;
+	text-align: center;
+	float: left;
+	color: #FFF;
+	margin: 0px;
+    }
+}
+@media only screen and (max-width: 680px) {
+   label {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	display: block;
+	width: 10%;
+	text-align: center;
+	float: left;
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 2%;
+    }
+    label#nombre1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	display: block;
+	width: 100%;
+	text-align: center;
+	float: left;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+    }
+    label#email1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	display: block;
+	width: 100%;
+	text-align: center;
+	float: left;
+	color: #FFF;
+	margin-top: 0px;
+	margin-right: 0%;
+	margin-bottom: 0px;
+	margin-left: 0%;
+    }
+    label#telefono1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	display: block;
+	width: 100%;
+	text-align: center;
+	float: left;
+	color: #FFF;
+	margin: 0px;
+    }
+    label#asunto1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	display: block;
+	width: 100%;
+	text-align: center;
+	float: left;
+	color: #FFF;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0%;
+    }
+    label#mensaje {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	display: block;
+	width: 100%;
+	text-align: center;
+	float: left;
+	color: #FFF;
+	margin: 0px;
+    }
+    input, textarea {
+	width: 90%;
+	height: 20px;
+	margin-top: 0px;
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: thin dashed #FFF;
+	padding-right: 5%;
+	background-image: url(../images/fondonegro1.png);
+	background-repeat: repeat;
+	margin-right: 0%;
+	margin-bottom: 7px;
+	background-color: #333;
+	padding-left: 5%;
+    }
+    .formulario {
+	display: block;
+	width: 100%;
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	height: auto;
+	margin-top: 22px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: 0px;
+	float: left;
+    }
+    form {
+	width: 90%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-right: 5%;
+	padding-left: 5%;
+	color: #FFF;
+}
+    textarea {
+	height: 90px;
+	width: 93.9%;
+	float: left;
+	color: #FFF;
+	background-image: url(../images/fondonegro1.png);
+	background-repeat: repeat;
+	background-color: #333;
+	padding-left: 1%;
+}
+    #submit {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	cursor: pointer;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #FFF;
+	margin-right: 0%;
+	margin-left: 0%;
+	font-size: 1.1em;
+	padding-right: 0%;
+	padding-left: 0%;
+	border: thin dashed #FFF;
+}
+}
+@media only screen and (max-width: 600px) {
+    .formulario {
+	display: block;
+	width: 100%;
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	height: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: 0px;
+	float: left;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .formulario {
+	display: block;
+	width: 100%;
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	height: auto;
+	margin-top: 19px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: 0px;
+	float: left;
+    }
+}

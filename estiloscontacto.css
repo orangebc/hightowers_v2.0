@@ -1,0 +1,934 @@
+@charset "utf-8";
+/* CSS Document */
+
+    *{
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+    body {
+	font: 14px 'roboto_condensedlight', sans-serif;		
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	list-style-image: none;
+	list-style-type: none;
+    }
+    img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+    }
+    .contenedordatos {
+	float: left;
+	height: auto;
+	width: 25%;
+	margin-top: 0%;
+    }
+    .contlogo {
+	float: left;
+	height: auto;
+	width: 25%;
+	margin-top: 0%;
+}
+    .logo {
+	float: left;
+	height: auto;
+	width: 40%;
+	margin-top: 40%;
+	margin-right: 30%;
+	margin-left: 30%;
+}
+    .tipoht {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 5em;
+	color: #FFF;
+	float: left;
+	height: auto;
+	width: 98%;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: 0%;
+	text-align: center;
+	line-height: 0.8em;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+    .elmejorclub {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1.5em;
+	color: #FFF;
+	float: left;
+	height: auto;
+	width: 60%;
+	margin-top: 3%;
+	margin-right: 20%;
+	margin-left: 20%;
+	text-align: center;
+	line-height: 0.8em;
+}
+    .contdatos {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+	padding-top: 74px;
+	padding-bottom: 74px;
+	color: #FFF;
+    }
+    .contdatos1 {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro1.png);
+	background-repeat: repeat;
+	padding-top: 78px;
+	padding-bottom: 78px;
+	color: #FFF;
+    }		
+    .contdatos2 {
+	height: auto;
+	width: 100%;
+	float: left;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #FFF;
+    }
+   .contformulario {
+	height: auto;
+	width: 50%;
+	background-image: url(images/fondonegro1.png);
+	background-repeat: repeat;
+	padding-top: 15px;
+	padding-bottom: 40px;
+	float: left;
+	padding-right: 0%;
+	padding-left: 0%;
+	background-color: #333;
+	margin-top: 0%;
+    }
+    h1 {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 4em;
+	color: #FFF;
+	text-align: center;
+	height: auto;
+	width: 100%;
+    }
+    p{
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1.2em;
+	color: #FFF;
+	text-align: center;
+	height: auto;
+	width: 90%;
+	padding-right: 5%;
+	padding-left: 5%;
+    }
+    footer{
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;		 
+	height: auto;
+	width: 100%;
+	float: left;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+	 }
+    .footerredes1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333;
+    }
+    .domicilio {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+	text-decoration: none;
+	font-style: normal;
+    }
+    .footerredes3 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333;
+    }	 
+    .footerredes4 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+    }
+	.footerdomicilio {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 0.7em;
+	color: #FFF;
+	text-align: center;
+	width: 100%;
+	padding-top: 20px;
+	opacity: 0.5;
+	float: left;
+	height: auto;
+	padding-bottom: 20px;
+    }
+@media only screen and (max-width: 1680px) {
+    .contdatos {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	color: #FFF;
+    }
+    .contdatos1 {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro1.png);
+	background-repeat: repeat;
+	padding-top: 49px;
+	padding-bottom: 49px;
+	color: #FFF;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .logo {
+	float: left;
+	height: auto;
+	width: 40%;
+	margin-top: 45%;
+	margin-right: 30%;
+	margin-left: 30%;
+}
+    .tipoht {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 4em;
+	color: #FFF;
+	float: left;
+	height: auto;
+	width: 98%;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: 0%;
+	text-align: center;
+	line-height: 0.8em;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+    .elmejorclub {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1.5em;
+	color: #FFF;
+	float: left;
+	height: auto;
+	width: 60%;
+	margin-top: 3%;
+	margin-right: 20%;
+	margin-left: 20%;
+	text-align: center;
+	line-height: 0.8em;
+}	
+   .contdatos {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+	padding-top: 41px;
+	padding-bottom: 40px;
+	color: #FFF;
+    }	
+    .contdatos1 {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro1.png);
+	background-repeat: repeat;
+	padding-top: 46px;
+	padding-bottom: 46px;
+	color: #FFF;
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .logo {
+	float: left;
+	height: auto;
+	width: 40%;
+	margin-top: 50%;
+	margin-right: 30%;
+	margin-left: 30%;
+}	
+   .contdatos {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+	padding-top: 47px;
+	padding-bottom: 48px;
+	color: #FFF;
+    }	
+    .contdatos1 {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro1.png);
+	background-repeat: repeat;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #FFF;
+    }
+    h1 {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 3em;
+	color: #FFF;
+	text-align: center;
+	height: auto;
+	width: 100%;
+    }	
+}
+@media only screen and (max-width: 1280px) {
+    .logo {
+	float: left;
+	height: auto;
+	width: 40%;
+	margin-top: 60%;
+	margin-right: 30%;
+	margin-left: 30%;
+}	
+    .tipoht {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 4em;
+	color: #FFF;
+	float: left;
+	height: auto;
+	width: 98%;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: 0%;
+	text-align: center;
+	line-height: 0.8em;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+    .elmejorclub {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1.2em;
+	color: #FFF;
+	float: left;
+	height: auto;
+	width: 60%;
+	margin-top: 3%;
+	margin-right: 20%;
+	margin-left: 20%;
+	text-align: center;
+	line-height: 0.8em;
+}
+
+}
+@media only screen and (max-width: 1024px) {
+    .logo {
+	float: left;
+	height: auto;
+	width: 40%;
+	margin-top: 70%;
+	margin-right: 30%;
+	margin-left: 30%;
+}	
+    .tipoht {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 3em;
+	color: #FFF;
+	float: left;
+	height: auto;
+	width: 98%;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: 0%;
+	text-align: center;
+	line-height: 0.8em;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+    .elmejorclub {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	float: left;
+	height: auto;
+	width: 60%;
+	margin-top: 3%;
+	margin-right: 20%;
+	margin-left: 20%;
+	text-align: center;
+	line-height: 0.8em;
+}	
+   .contdatos {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+	padding-top: 47px;
+	padding-bottom: 48px;
+	color: #FFF;
+    }	
+    .contdatos1 {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro1.png);
+	background-repeat: repeat;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #FFF;
+    }
+    h1 {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 2.5em;
+	color: #FFF;
+	text-align: center;
+	height: auto;
+	width: 100%;
+    }
+   .contformulario {
+	height: auto;
+	width: 50%;
+	background-image: url(images/fondonegro1.png);
+	background-repeat: repeat;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	float: left;
+	padding-right: 0%;
+	padding-left: 0%;
+	background-color: #333;
+	margin-top: 0%;
+    }
+    p{
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	text-align: center;
+	height: auto;
+	width: 90%;
+	padding-right: 5%;
+	padding-left: 5%;
+    }			
+}
+@media only screen and (max-width: 768px) {
+    .logo {
+	float: left;
+	height: auto;
+	width: 40%;
+	margin-top: 10%;
+	margin-right: 30%;
+	margin-left: 30%;
+}	
+    .tipoht {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 3em;
+	color: #FFF;
+	float: left;
+	height: auto;
+	width: 98%;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: 0%;
+	text-align: center;
+	line-height: 0.8em;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+    .elmejorclub {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1.2em;
+	color: #FFF;
+	float: left;
+	height: auto;
+	width: 90%;
+	margin-top: 3%;
+	margin-right: 5%;
+	margin-left: 5%;
+	text-align: center;
+	line-height: 0.8em;
+	margin-bottom: 20%;
+}		
+   .contenedordatos {
+	float: left;
+	height: auto;
+	width: 40%;
+	margin-top: 0%;
+    }	
+   .contdatos {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+	padding-top: 47px;
+	padding-bottom: 48px;
+	color: #FFF;
+    }	
+    .contdatos1 {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro1.png);
+	background-repeat: repeat;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #FFF;
+    }
+    h1 {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 2.5em;
+	color: #FFF;
+	text-align: center;
+	height: auto;
+	width: 100%;
+    }
+   .contformulario {
+	height: auto;
+	width: 60%;
+	background-image: url(images/fondonegro1.png);
+	background-repeat: repeat;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	float: left;
+	padding-right: 0%;
+	padding-left: 0%;
+	background-color: #333;
+	margin-top: 0%;
+    }
+    p{
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	text-align: center;
+	height: auto;
+	width: 90%;
+	padding-right: 5%;
+	padding-left: 5%;
+    }
+    .domicilio {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: #4F4F4F;
+	text-decoration: none;
+	font-style: normal;
+    }			
+	.footerdomicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	width: 90%;
+	padding-top: 10px;
+	opacity: 0.5;
+	margin-right: 5%;
+	margin-left: 5%;
+}		
+}
+@media only screen and (max-width: 680px) {
+    .contlogo {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 0%;
+}	
+    .logo {
+	float: left;
+	height: auto;
+	width: 20%;
+	margin-top: 5%;
+	margin-right: 40%;
+	margin-left: 40%;
+}	
+    .tipoht {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 3em;
+	color: #FFF;
+	float: left;
+	height: auto;
+	width: 98%;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: 0%;
+	text-align: center;
+	line-height: 0.8em;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+    .elmejorclub {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1.2em;
+	color: #FFF;
+	float: left;
+	height: auto;
+	width: 90%;
+	margin-top: 0%;
+	margin-right: 5%;
+	margin-left: 5%;
+	text-align: center;
+	line-height: 0.8em;
+	margin-bottom: 7%;
+}
+   .contenedordatos {
+	float: left;
+	height: auto;
+	width: 40%;
+	margin-top: 0%;
+    }	
+   .contdatos {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+	padding-top:80px;
+	padding-bottom: 80px;
+	color: #FFF;
+    }	
+    .contdatos1 {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro1.png);
+	background-repeat: repeat;
+	padding-top: 76px;
+	padding-bottom: 77px;
+	color: #FFF;
+    }
+    .contdatos2 {
+	height: auto;
+	width: 100%;
+	float: left;
+	padding-top: 32px;
+	padding-bottom: 10px;
+	color: #FFF;
+    }	
+    h1 {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 2.5em;
+	color: #FFF;
+	text-align: center;
+	height: auto;
+	width: 100%;
+    }
+   .contformulario {
+	height: auto;
+	width: 60%;
+	background-image: url(images/fondonegro1.png);
+	background-repeat: repeat;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	float: left;
+	padding-right: 0%;
+	padding-left: 0%;
+	background-color: #333;
+	margin-top: 0%;
+    }
+    p{
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	text-align: center;
+	height: auto;
+	width: 90%;
+	padding-right: 5%;
+	padding-left: 5%;
+    }	
+    .footerredes1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333333;
+    }
+    .footerredes3 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333333;
+}	 
+    .footerredes4 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+}	
+    .domicilio {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: #4F4F4F;
+	text-decoration: none;
+	font-style: normal;
+    }			
+	.footerdomicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	width: 90%;
+	padding-top: 10px;
+	opacity: 0.5;
+	margin-right: 5%;
+	margin-left: 5%;
+}			
+}
+
+@media only screen and (max-width: 600px) {
+   .contformulario {
+	height: auto;
+	width: 60%;
+	background-image: url(images/fondonegro1.png);
+	background-repeat: repeat;
+	padding-top: 35px;
+	padding-bottom: 0px;
+	float: left;
+	padding-right: 0%;
+	padding-left: 0%;
+	background-color: #333;
+	margin-top: 0%;
+    }	
+.footerredes1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 50%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333333;
+}
+.domicilio {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 50%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #33333;
+}
+.footerredes3 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 50%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+}	 
+.footerredes4 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width:50%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333333;
+}	
+	
+}
+@media only screen and (max-width: 480px) {
+   .contdatos {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+	padding-top:20px;
+	padding-bottom: 20px;
+	color: #FFF;
+    }	
+    .contdatos1 {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro1.png);
+	background-repeat: repeat;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #FFF;
+    }
+    .contdatos2 {
+	height: auto;
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color: #FFF;
+    }		
+  .contenedordatos {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 0%;
+    }		
+  .contformulario {
+	height: auto;
+	width: 100%;
+	background-image: url(images/fondonegro1.png);
+	background-repeat: repeat;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	float: left;
+	padding-right: 0%;
+	padding-left: 0%;
+	background-color: #333;
+	margin-top: 0%;
+    }	
+.footerredes1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 100%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333;
+}
+.domicilio {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 100%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+}
+   .footerredes3 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 100%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333333;
+}	 
+    .footerredes4 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 100%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+}
+	.footerdomicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	width: 90%;
+	opacity: 0.5;
+	margin-right: 5%;
+	margin-left: 5%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}		
+}
+
+@media only screen and (max-width: 320px) {
+    .tipoht {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 2em;
+	color: #FFF;
+	float: left;
+	height: auto;
+	width: 98%;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: 0%;
+	text-align: center;
+	line-height: 0.8em;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+    .elmejorclub {
+	font-family: 'roboto_condensedlight', sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	float: left;
+	height: auto;
+	width: 90%;
+	margin-top: 0%;
+	margin-right: 5%;
+	margin-left: 5%;
+	text-align: center;
+	line-height: 0.8em;
+	margin-bottom: 7%;
+}
+}

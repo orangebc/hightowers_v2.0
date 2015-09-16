@@ -1,0 +1,860 @@
+@charset "utf-8";
+/* CSS Document */
+
+    *{
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-type: none;
+    }
+    body {
+	font: 14px 'roboto_condensedlight', sans-serif;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	list-style-image: none;
+	list-style-type: none;
+    }
+    img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+    }
+    .contimg {
+	float: left;
+	height:250px;
+	width: 25%;
+    }
+    .imagen1{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/galeria/hightowers1.jpg);
+    }
+    .imagen2{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/galeria/hightowers2.jpg);
+    }
+    .imagen3{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/galeria/hightowers3.jpg);
+    }
+    .imagen4{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/galeria/hightowers4.jpg);
+    }
+    .imagen5{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/galeria/hightowers5.jpg);
+    }    
+    .imagen6{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/galeria/hightowers6.jpg);
+    }    
+    .imagen7{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/galeria/hightowers7.jpg);
+    }    
+    .imagen8{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/galeria/hightowers8.jpg);
+    }
+    .imagen9{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/galeria/hightowers9.jpg);
+    }
+    .imagen10{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/galeria/hightowers10.jpg);
+    }
+    .imagen11{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/galeria/hightowers11.jpg);
+    }
+    .imagen12{
+	width: 100%;
+	height: 250px;
+	background-image: url(images/galeria/hightowers12.jpg);
+    }				
+    .conthovers {
+	float: left;
+	width: 100%;
+	height: 250px;
+    }
+    .ampliar {
+	height: auto;
+	width: 15%;
+	margin: auto;
+	padding-top: 20%;
+    }
+    .info{
+	width: 100%;
+	height: 250px;
+	background-color: rgba(0,0,0,0.9);
+	opacity: 0;
+	-webkit-transition: opacity 0.4s;
+    }
+    .conthightowers {
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 0%;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+    }
+    .enclomas {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 7em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 75%;
+	margin-top: 3%;
+	line-height: 1em;
+	padding-top: 0%;
+    }
+    .textogaleria {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 20%;
+	margin-top: 2%;
+	line-height: 2em;
+	padding-top: 0px;
+	border-right-width: 10px;
+	border-left-width: 10px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-left-color: #FFF;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+    }
+    .imagen1:hover div.info {
+	opacity:1;
+    }
+    .imagen2:hover div.info {
+	opacity:1;
+    }
+    .imagen3:hover div.info {
+	opacity:1;
+    }
+    .imagen4:hover div.info {
+	opacity:1;
+    }
+    .imagen5:hover div.info {
+	opacity:1;
+    }
+	.imagen6:hover div.info {
+	opacity:1;
+    }
+
+    .imagen7:hover div.info {
+	opacity:1;
+    }
+    .imagen8:hover div.info {
+	opacity:1;
+    }
+    .imagen9:hover div.info {
+	opacity: 1;
+    }
+    .imagen10:hover div.info {
+	opacity: 1;
+    }
+    .imagen11:hover div.info {
+	opacity: 1;
+    }
+    .imagen12:hover div.info {
+	opacity: 1;
+    }
+    footer{
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;		 
+	height: auto;
+	width: 100%;
+	float: left;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+	 }
+    .footerredes1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333;
+    }
+    .footerredes2 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+    }
+    .footerredes3 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333;
+    }	 
+    .footerredes4 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+    }
+	.footerdomicilio {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 0.7em;
+	color: #FFF;
+	text-align: center;
+	width: 100%;
+	padding-top: 20px;
+	opacity: 0.5;
+	float: left;
+	height: auto;
+	padding-bottom: 20px;
+    }
+@media only screen and (max-width: 1680px) {
+    .conthightowers {
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 0%;
+	padding-top: 15px;
+	padding-bottom: 100px;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+    }	
+    .enclomas {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 6em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 75%;
+	margin-top: 6%;
+	line-height: 1em;
+	padding-top: 0%;
+    }
+    .textogaleria {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 20%;
+	margin-top: 5%;
+	line-height: 2em;
+	padding-top: 0px;
+	border-right-width: 10px;
+	border-left-width: 10px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-left-color: #FFF;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+    }
+    .ampliar {
+	height: auto;
+	width: 15%;
+	margin: auto;
+	padding-top: 23%;
+    }		
+}
+
+@media only screen and (max-width: 1600px) {
+    .textogaleria {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 20%;
+	margin-top: 8%;
+	line-height: 2em;
+	padding-top: 0px;
+	border-right-width: 10px;
+	border-left-width: 10px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-left-color: #FFF;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+    }
+    .enclomas {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 6em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 75%;
+	margin-top: 9%;
+	line-height: 1em;
+	padding-top: 0%;
+    }	
+    .ampliar {
+	height: auto;
+	width: 15%;
+	margin: auto;
+	padding-top: 25%;
+    }			
+}
+@media only screen and (max-width: 1440px) {
+    .enclomas {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 5.5em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 75%;
+	margin-top: 9%;
+	line-height: 1em;
+	padding-top: 0%;
+    }	
+    .textogaleria {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 20%;
+	margin-top: 6%;
+	line-height: 2em;
+	padding-top: 0px;
+	border-right-width: 10px;
+	border-left-width: 10px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-left-color: #FFF;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+    .ampliar {
+	height: auto;
+	width: 15%;
+	margin: auto;
+	padding-top: 27%;
+    }		
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1440
+*/
+@media only screen and (max-width: 1366px) {
+    .enclomas {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 5em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 75%;
+	margin-top: 8%;
+	line-height: 1em;
+	padding-top: 0%;
+    }
+    .textogaleria {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 20%;
+	margin-top: 5%;
+	line-height: 2em;
+	padding-top: 0px;
+	border-right-width: 10px;
+	border-left-width: 10px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-left-color: #FFF;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+    .ampliar {
+	height: auto;
+	width: 15%;
+	margin: auto;
+	padding-top: 30%;
+    }		
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1366
+*/
+@media only screen and (max-width: 1280px) {
+    .enclomas {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 4.5em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 75%;
+	margin-top: 9%;
+	line-height: 1em;
+	padding-top: 0%;
+    }
+    .textogaleria {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 20%;
+	margin-top: 6%;
+	line-height: 2em;
+	padding-top: 0px;
+	border-right-width: 10px;
+	border-left-width: 10px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-left-color: #FFF;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+    .ampliar {
+	height: auto;
+	width: 15%;
+	margin: auto;
+	padding-top: 32%;
+    }		
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1280
+*/
+@media only screen and (max-width: 1024px) {
+    .enclomas {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 4.5em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 65%;
+	margin-top: 8%;
+	line-height: 1em;
+	padding-top: 0%;
+    }
+    .textogaleria {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 25%;
+	margin-top: 7%;
+	line-height: 2em;
+	padding-top: 0px;
+	border-right-width: 10px;
+	border-left-width: 10px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-left-color: #FFF;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}	
+    .ampliar {
+	height: auto;
+	width: 25%;
+	margin: auto;
+	padding-top: 42%;
+    }	
+    .footerredes2 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 25%;
+	float: left;
+	height: 30px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: #4F4F4F;
+    }
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 1024
+*/
+@media only screen and (max-width: 768px) {
+    .conthightowers {
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 0%;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	background-image: url(images/fondonegro.fw.png);
+	background-repeat: repeat;
+    }
+    .enclomas {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 3em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 65%;
+	margin-top: 18%;
+	line-height: 1em;
+	padding-top: 0%;
+    }
+    .textogaleria {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 20%;
+	margin-top: 5%;
+	line-height: 2em;
+	padding-top: 0px;
+	border-right-width: 10px;
+	border-left-width: 10px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-left-color: #FFF;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+} 
+    .contimg {
+	float: left;
+	height:250px;
+	width: 50%;
+    }	
+    .ampliar {
+	height: auto;
+	width: 20%;
+	margin: auto;
+	padding-top: 26%;
+    }		
+	.footerdomicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	width: 90%;
+	padding-top: 10px;
+	opacity: 0.5;
+	margin-right: 5%;
+	margin-left: 5%;
+    }
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 768
+*/
+@media only screen and (max-width: 680px) {
+    .enclomas {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 3em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 4%;
+	line-height: 1em;
+	padding-top: 0%;
+    }
+    .textogaleria {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 1em;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	height: auto;
+	width: 80%;
+	margin-top: 5%;
+	line-height: 2em;
+	padding-top: 0px;
+	padding-right: 10%;
+	padding-bottom: 0px;
+	padding-left: 10%;
+	border-top-width: 10px;
+	border-bottom-width: 10px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FFF;
+	border-bottom-color: #FFF;
+	border-right-style: none;
+	border-left-style: none;
+}
+    .ampliar {
+	height: auto;
+	width: 20%;
+	margin: auto;
+	padding-top: 28%;
+    }
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 680	
+	
+*/
+@media only screen and (max-width: 640px) {
+    .ampliar {
+	height: auto;
+	width: 20%;
+	margin: auto;
+	padding-top: 31%;
+    }	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 640	
+*/
+@media only screen and (max-width: 600px) {
+    .ampliar {
+	height: auto;
+	width: 20%;
+	margin: auto;
+	padding-top: 33%;
+    }	
+    .footerredes1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 50%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333;
+    }
+    .footerredes2 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 50%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+    }
+    .footerredes3 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 50%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+    }	 
+    .footerredes4 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 50%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333333;
+    }	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 600	
+	*/
+@media only screen and (max-width: 550px) {
+    .ampliar {
+	height: auto;
+	width: 20%;
+	margin: auto;
+	padding-top: 38%;
+    }
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 550	
+	*/
+@media only screen and (max-width: 480px) {
+ 
+    .ampliar {
+	height: auto;
+	width: 24%;
+	margin: auto;
+	padding-top: 48%;
+    } 
+ 	.footerdomicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	width: 90%;
+	opacity: 0.5;
+	margin-right: 5%;
+	margin-left: 5%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    }
+    .footerredes1 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 100%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333;
+    }
+    .footerredes2 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 100%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+    }
+    .footerredes3 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 100%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #333333;
+    }	 
+    .footerredes4 {
+	font-family: "roboto_condensedbold", sans-serif;
+	font-size: 1em;
+	color: #CCC;
+	text-align: center;
+	width: 100%;
+	float: left;
+	height: 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: #4F4F4F;
+    }		
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 480	
+*/
+@media only screen and (max-width: 320px) {
+
+    .ampliar {
+	height: auto;
+	width: 24%;
+	margin: auto;
+	padding-top: 38%;
+    } 	
+    .contimg {
+	float: left;
+	height: 250px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+    }
+    .info{
+	width: 90%;
+	height: 250px;
+	background-color: rgba(0,0,0,0.9);
+	opacity: 0;
+	-webkit-transition: opacity 0.4s;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 5%;
+	padding-bottom: 0px;
+
+	padding-left: 5%;
+     }
+ 	.footerdomicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	font-size: 0.9em;
+	color: #FFF;
+	text-align: center;
+	width: 90%;
+	opacity: 0.5;
+	margin-right: 5%;
+	margin-left: 5%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    TERMINA MEDIA QUERY 320	
+	
+		
